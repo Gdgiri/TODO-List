@@ -93,7 +93,7 @@ function App() {
           <input
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
-            placeholder="Search items"
+            placeholder="Search name"
           />
           <br />
           <label htmlFor="" className="sel">
