@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+}
+
+input {
+  padding: 5px 20px;
+}
+
+.search-container input {
+  width: 45%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ background-color: rgb(160, 223, 160);
+}
+
+.droping {
+  width: 45%;
+  margin-left: 50%;
+}
+
+.delbtn {
+  width: 45%;
+}
+
+.editBtn {
+  width: 40%;
+  
+}
+
+input {
+  margin:5% !important;
+  border-color: green;
+}
+
+
+
+
+
+.sel {
+  position: relative;
+  left: 20%;
+  top: 5%;
+  font-weight: bolder;
+}
+
+.laa {
+  position: relative;
+  right: 20%;
+  top: 10%;
+}
