@@ -79,12 +79,12 @@ function App() {
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Item name"
+            placeholder="Todo name"
           />
           <input
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            placeholder="Item description"
+            placeholder="Todo description"
           />
           <button onClick={addItem} className="btn btn-success">
             Add Todo
@@ -93,7 +93,7 @@ function App() {
           <input
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
-            placeholder="Search name"
+            placeholder="Search Todo name"
           />
           <br />
           <label htmlFor="" className="sel">
