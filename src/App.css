@@ -1,150 +1,65 @@
-/* App.css */
-body {
-  font-family: Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
-}
-
-.App {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-header {
-  background-color: #28a745;
-  padding: 20px;
-  color: white;
-  text-align: center;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-main {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-input {
-  padding: 10px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 200px;
-}
-
-button {
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button.btn-success {
-  background-color: #28a745;
-  color: white;
-}
-
-button.btn-warning {
-  background-color: #ffc107;
-  color: white;
-}
-
-select {
-  padding: 10px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 200px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-li.card {
-  background-color: #f8f9fa;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  flex: 1 1 calc(33.333% - 20px);
   box-sizing: border-box;
 }
 
-li.card p {
-  margin: 10px 0;
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
 }
 
-.d-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+input {
+  padding: 5px 20px;
 }
 
-.d-flex.align-item-left {
-  justify-content: flex-start;
+.search-container input {
+  width: 45%;
 }
 
-.d-flex.justify-content-flex-end {
-  justify-content: flex-end;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
 }
 
-h5 {
-  margin: 10px 0;
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgb(160, 223, 160);
 }
 
-.text-center {
-  text-align: center;
-}
-
-.text-success {
-  color: #28a745;
-}
-
-.bg-light {
-  background-color: #f8f9fa;
-}
-
-.bg-danger {
-  background-color: #dc3545;
-}
-
-.bg-danger.text-white {
-  color: white;
-}
-
-.p-5 {
-  padding: 20px;
-}
-
-.p-5 input {
-  width: 150px;
-}
-
-.card input {
-  width: auto;
-  margin: 5px 0;
-}
-
-.editBtn {
-  margin-right: 10px;
+.droping {
+  width: 45%;
+  margin-left: 50%;
 }
 
 .delbtn {
-  background-color: #dc3545;
-  color: white;
+  width: 45%;
 }
 
-option {
-  background-color: white;
-  color: black;
+.editBtn {
+  width: 40%;
+}
+
+input {
+  margin: 5% !important;
+  border-color: green;
+}
+
+.sel {
+  position: relative;
+  left: 20%;
+  top: 5%;
+  font-weight: bolder;
+}
+
+.laa {
+  position: relative;
+  right: 20%;
+  top: 10%;
 }
